@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/download (2).jfif" alt="">
+            <p>em um dia qualquer, um livro foi achado no mar, e nele havia um mapa do tesouro que tinha uma carta antiga sobre um bau do tesouro</p>
+            <button class="btn-proximo" data-proximo="1">roma</button>
+            <button class="btn-proximo" data-proximo="2">Austrália</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em roma, subindo ao coliseu para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do coliseu</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>na Austrália, você visita a histórica cidade de Sydney. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o Parque Nacional Kakadu</button>
+            <button class="btn-proximo" data-proximo="6">Explorar uluru</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do coliseu, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada na torre de pisa.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para pisa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/download (1).jfif" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No parque kakadu, você descobre um mapa antigo escondido atrás de uma arvore, apontando que a próxima
+                pista está na torre de pisa.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para pisa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o uluru, você encontra um buraco, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a torre</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>na torre de pisa, a busca pela cidade perdida se intensifica. Você se depara com uma caverna.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às torres, você finalmente encontra o mapa antigo. Agora, para a Austrália!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Austrália</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a um altar escondido com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área repleta de arvores. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/download.jfif" alt="tesouro encontrado">
+            <p>Dentro do bau perdido, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra o altar escondido e as inscrições
+                que levam para o tesouro.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
